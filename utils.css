@@ -1,0 +1,9 @@
+
+.align-center{
+    text-align: center;
+}
+.flex-all-center{
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}

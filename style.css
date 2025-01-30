@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rowdies:wght@300;400;700&family=Zen+Dots&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+--main-bg-color:black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+
+.logo{ display: flex;
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:11vh;
+        padding-left:3vh;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 64vh;
+  height: 5vh;
+  border-radius: 1vh;
+  margin-left: 55vh;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ93wF2bcJ5CrxsgPlNsR2h6P_ETYwW2iHztw&s') no-repeat right 12px center;
+    background-size: 20px;
+    background-color: white;
+    font-family: "Zen Dots", serif;
+    font-weight: 100;
+    font-style:unset;
+    padding-left: 3vh;
+
+
+}
+.search-input:focus {
+    outline-color:rgb(39, 255, 154) ;
+    border-color:rgb(39, 255, 154);
+}
+
+
+
+.container{
+    display: flex;
+    color:white;
+    background-image: url("https://wallpapercave.com/wp/wp2602611.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    position: relative; 
+    background-repeat: no-repeat;
+    padding-top: 2vh;
+    min-height: calc(80vh);
+    gap: 9vh;  
+    
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:3vh;
+}
+header{
+    
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    /* height:12vh; */
+    display: flex;
+    justify-content: flex-end;
+    justify-items: auto;
+    align-items: center;
+}
+nav ul li{  
+    padding-right: 3vh;
+list-style:none;
+}
+nav ul li a:hover{
+    color: rgb(39, 255, 154);
+    font-style: italic;
+    font-weight:bolder;
+}
+
+/* .container2{
+    display: flex;
+    gap: 20px;  /* space between the boxes */
+  /* } */ 
+  
+  .box {
+    background-image:url("https://images7.alphacoders.com/463/463447.jpg");
+    width: 18vw;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:inherit;
+   
+    /* box-shadow: 1vh 1vh 1vh rgb(255, 255, 255); */
+  }
+  main a{
+    text-decoration: none;
+  }
+  main .box:hover{
+
+    box-shadow: 1vh 1vh 1vh rgb(255, 255, 255);
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+  .file-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.file a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: rgb(39, 255, 154);
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.3s;
+}
+
+.file a:hover {
+    background-color:rgb(39, 255, 154);
+    color: white;
+}
+
+
+  /* .nt{
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  .nt{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
